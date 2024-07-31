@@ -1,7 +1,5 @@
 # blf_converter
 
-![IAV](resources/images/IAV.svg "IAV Automotive Engineering (Shanghai) Co., Ltd.")
-
 ## Table of Contents
 
 - [blf\_converter](#blf_converter)
@@ -39,7 +37,6 @@
 
 |||
 |-|-|
-| **WARNING** | This is an expert tool in an early prototype and development status. </br> This expert tool is created by IAV Automotive Engineering (Shanghai) Co., Ltd.. </br> IAV Automotive Engineering (Shanghai) Co., Ltd. is not responsible for any damage caused by this tool. </br> Use this tool at your own risk. |
 | **WARNING** | !!! DRAFT version !!! |
 |||
 
