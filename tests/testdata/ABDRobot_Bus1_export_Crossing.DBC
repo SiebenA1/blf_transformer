@@ -1,0 +1,242 @@
+VERSION "HIPBNYYYYYYYYYYYYYYYYYYYYYYYYYYYNNNNNNNNNN/4/%%%/4/'%**4NNN///"
+
+NS_ :
+ NS_DESC_
+ CM_
+ BA_DEF_
+ BA_
+ VAL_
+ CAT_DEF_
+ CAT_
+ FILTER
+ BA_DEF_DEF_
+ EV_DATA_
+ ENVVAR_DATA_
+ SGTYPE_
+ SGTYPE_VAL_
+ BA_DEF_SGTYPE_
+ BA_SGTYPE_
+ SIG_TYPE_REF_
+ VAL_TABLE_
+ SIG_GROUP_
+ SIG_VALTYPE_
+ SIGTYPE_VALTYPE_
+ BO_TX_BU_
+ BA_DEF_REL_
+ BA_REL_
+ BA_DEF_DEF_REL_
+ BU_SG_REL_
+ BU_EV_REL_
+ BU_BO_REL_
+
+BS_: 
+
+BU_: ABD_ROBOT
+
+BO_ 1600 CMABD01_BUS1: 8 ABD_ROBOT
+ SG_ ThisVehicleXPositionReference : 0|32@1- (0.001,0) [0|0] "m" Vector__XXX
+ SG_ ThisVehicleYPositionReference : 32|32@1- (0.001,0) [0|0] "m" Vector__XXX
+
+BO_ 1601 CMABD02_BUS1: 8 ABD_ROBOT
+ SG_ MpForwardVelocity : 0|16@1- (0.01,0) [0|0] "m/s" Vector__XXX
+ SG_ MpLateralVelocity : 16|16@1- (0.01,0) [0|0] "m/s" Vector__XXX
+ SG_ MpVerticalVelocity : 32|16@1- (0.01,0) [0|0] "m/s" Vector__XXX
+ SG_ MpForwardAcceleration : 48|16@1- (0.01,0) [0|0] "m/s²" Vector__XXX
+
+BO_ 1602 CMABD03_BUS1: 8 ABD_ROBOT
+ SG_ MpLateralAcceleration : 0|16@1- (0.01,0) [0|0] "m/s²" Vector__XXX
+ SG_ MpVerticalAcceleration : 16|16@1- (0.01,0) [0|0] "m/s²" Vector__XXX
+ SG_ MpRollAngle : 32|16@1- (0.01,0) [0|0] "°" Vector__XXX
+ SG_ MpPitchAngle : 48|16@1- (0.01,0) [0|0] "°" Vector__XXX
+
+BO_ 1603 CMABD04_BUS1: 8 ABD_ROBOT
+ SG_ MpYawAngle : 0|32@1- (0.001,0) [0|0] "°" Vector__XXX
+ SG_ MpTime : 32|32@1- (0.001,0) [0|0] "s" Vector__XXX
+
+BO_ 1604 CMABD05_BUS1: 8 ABD_ROBOT
+ SG_ MpRollVelocity : 0|16@1- (0.01,0) [0|0] "°/s" Vector__XXX
+ SG_ MpYawVelocity : 16|16@1- (0.01,0) [0|0] "°/s" Vector__XXX
+ SG_ PfError : 32|16@1- (0.001,0) [0|0] "m" Vector__XXX
+ SG_ PfDistanceError : 48|16@1- (0.001,0) [0|0] "s" Vector__XXX
+
+BO_ 1605 CMABD06_BUS1: 8 ABD_ROBOT
+ SG_ MpDistanceTravelledWheelbaseMidP : 0|32@1- (0.001,0) [0|0] "m" Vector__XXX
+ SG_ PfPhase : 32|16@1- (1,0) [0|0] "" Vector__XXX
+ SG_ PCComCode : 48|16@1- (1,0) [0|0] "" Vector__XXX
+
+BO_ 1606 CMABD07_BUS1: 8 ABD_ROBOT
+ SG_ OtherVehicleXPositionReference : 0|32@1- (0.001,0) [0|0] "m" Vector__XXX
+ SG_ OtherVehicleYPositionReference : 32|32@1- (0.001,0) [0|0] "m" Vector__XXX
+
+BO_ 1607 CMABD08_BUS1: 8 ABD_ROBOT
+ SG_ RelativeLongitudinalDistance : 0|16@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ RelativeLateralDistance : 16|16@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ RelativeLongitudinalVelocity : 32|16@1- (0.01,0) [0|0] "m/s" Vector__XXX
+ SG_ RelativeLateralVelocity : 48|16@1- (0.01,0) [0|0] "m/s" Vector__XXX
+
+BO_ 1608 CMABD09_BUS1: 8 ABD_ROBOT
+ SG_ OtherVehicleForwardVelocity : 0|16@1- (0.01,0) [0|0] "m/s" Vector__XXX
+ SG_ OtherVehicleLateralVelocity : 16|16@1- (0.01,0) [0|0] "m/s" Vector__XXX
+ SG_ OtherVehicleForwardAcceleration : 32|16@1- (0.01,0) [0|0] "m/s²" Vector__XXX
+ SG_ OtherVehicleLateralAcceleration : 48|16@1- (0.01,0) [0|0] "m/s²" Vector__XXX
+
+BO_ 1609 CMABD10_BUS1: 8 ABD_ROBOT
+ SG_ OtherVehicleYaw : 0|32@1- (0.01,0) [0|0] "°" Vector__XXX
+ SG_ OtherVehiclePitch : 32|16@1- (0.01,0) [0|0] "°" Vector__XXX
+ SG_ OtherVehicleLateralError : 48|16@1- (0.001,0) [0|0] "m" Vector__XXX
+
+BO_ 1610 CMABD11_BUS1: 8 ABD_ROBOT
+ SG_ IncomingExtrapolationTimeMs : 0|16@1- (0.01,0) [0|0] "ms" Vector__XXX
+ SG_ PrimaryVehicleStatus : 16|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ SecondaryVehicleStatus : 24|8@1- (1,0) [0|0] "" Vector__XXX
+ SG_ PathXPositionAdjustment : 32|16@1- (0.001,0) [0|0] "m" Vector__XXX
+ SG_ PathYPositionAdjustment : 48|16@1- (0.001,0) [0|0] "m" Vector__XXX
+
+BO_ 1611 CMABD12_BUS1: 8 ABD_ROBOT
+ SG_ RelativeResultantDistance : 0|16@1- (0.01,0) [0|0] "m" Vector__XXX
+ SG_ RelativeVelocity : 16|16@1- (0.01,0) [0|0] "m/s" Vector__XXX
+ SG_ RelativeYaw : 32|16@1- (0.01,0) [0|0] "°" Vector__XXX
+ SG_ TimeToCollisionLongitudinal : 48|16@1- (0.001,0) [0|0] "s" Vector__XXX
+
+BO_ 1612 CMABD13_BUS1: 8 ABD_ROBOT
+ SG_ SubjectTimeError : 0|16@1- (0.01,0) [0|0] "s" Vector__XXX
+ SG_ SubjectVelocityRatio : 16|16@1- (0.01,0) [0|0] "" Vector__XXX
+ SG_ TrackerTimeError : 32|16@1- (0.01,0) [0|0] "s" Vector__XXX
+ SG_ LatRelPa : 48|16@1- (0.001,0) [0|0] "m" Vector__XXX
+
+BO_ 1613 CMABD14_BUS1: 8 ABD_ROBOT
+ SG_ OtherVehicleYawVelocity : 0|16@1- (0.01,0) [0|0] "°/s" Vector__XXX
+
+BO_ 1614 CMABD15_BUS1: 8 ABD_ROBOT
+ SG_ ArCommand : 0|16@1- (0.01,0) [0|0] "EU" Vector__XXX
+ SG_ ArPosition : 16|16@1- (0.01,0) [0|0] "%" Vector__XXX
+ SG_ Speed : 32|16@1- (0.01,0) [0|0] "m/s" Vector__XXX
+ SG_ SpeedError : 48|16@1- (0.01,0) [0|0] "m/s" Vector__XXX
+
+BO_ 1615 CMABD16_BUS1: 8 ABD_ROBOT
+ SG_ BrCommand : 0|16@1- (1,0) [0|0] "EU" Vector__XXX
+ SG_ BrPosition : 16|16@1- (0.01,0) [0|0] "mm" Vector__XXX
+ SG_ BrVelocity : 32|16@1- (0.1,0) [0|0] "mm/s" Vector__XXX
+ SG_ BrControlAnalogue : 48|16@1- (1,0) [0|0] "EU" Vector__XXX
+
+BO_ 1616 CMABD17_BUS1: 8 ABD_ROBOT
+ SG_ SrAngle : 0|32@1+ (1,0) [0|0] "°" Vector__XXX
+ SG_ SrVelocity : 32|32@1+ (1,0) [0|0] "°/s" Vector__XXX
+
+BO_ 1617 CMABD18_BUS1: 8 ABD_ROBOT
+ SG_ CanUserDefined1 : 0|32@1+ (1,0) [0|0] "" Vector__XXX
+ SG_ CanUserDefined2 : 32|32@1+ (1,0) [0|0] "" Vector__XXX
+
+BO_ 1618 CMABD19_BUS1: 8 ABD_ROBOT
+ SG_ Analogue1 : 0|16@1- (0.1,0) [0|0] "°" Vector__XXX
+ SG_ Analogue2 : 16|16@1- (0.1,0) [0|0] "N" Vector__XXX
+ SG_ Analogue3 : 32|16@1- (0.1,0) [0|0] "N" Vector__XXX
+ SG_ Analogue4 : 48|16@1- (0.1,0) [0|0] "EU" Vector__XXX
+
+BO_ 1619 CMABD20_BUS1: 8 ABD_ROBOT
+ SG_ SteerTorque : 0|16@1- (0.01,0) [0|0] "Nm" Vector__XXX
+ SG_ SteerColumnTorque : 16|16@1- (0.01,0) [0|0] "Nm" Vector__XXX
+ SG_ SteerCompensatedTorque : 32|16@1- (0.01,0) [0|0] "Nm" Vector__XXX
+ SG_ SrControlAnalogue : 48|16@1- (1,0) [0|0] "EU" Vector__XXX
+
+BO_ 1620 CMABD21_BUS1: 8 ABD_ROBOT
+ SG_ SrCommand : 0|16@1- (0.1,0) [0|0] "EU" Vector__XXX
+ SG_ SrAngle : 16|16@1- (0.1,0) [0|0] "°" Vector__XXX
+ SG_ SrVelocity : 32|16@1- (0.1,0) [0|0] "°/s" Vector__XXX
+ SG_ SrAcceleration : 48|16@1- (1,0) [0|0] "°/s²" Vector__XXX
+
+CM_ SG_ 1600 ThisVehicleXPositionReference "Subject reference X position";
+CM_ SG_ 1600 ThisVehicleYPositionReference "Subject reference Y position";
+CM_ BO_ 1600 "CMABD01_BUS1";
+CM_ SG_ 1601 MpForwardVelocity "Forward velocity";
+CM_ SG_ 1601 MpLateralVelocity "Lateral velocity";
+CM_ SG_ 1601 MpVerticalVelocity "Vertical velocity";
+CM_ SG_ 1601 MpForwardAcceleration "Forward acceleration";
+CM_ BO_ 1601 "CMABD02_BUS1";
+CM_ SG_ 1602 MpLateralAcceleration "Lateral acceleration";
+CM_ SG_ 1602 MpVerticalAcceleration "Vertical acceleration";
+CM_ SG_ 1602 MpRollAngle "Roll angle";
+CM_ SG_ 1602 MpPitchAngle "Pitch angle";
+CM_ BO_ 1602 "CMABD03_BUS1";
+CM_ SG_ 1603 MpYawAngle "Yaw angle";
+CM_ SG_ 1603 MpTime "MP time";
+CM_ BO_ 1603 "CMABD04_BUS1";
+CM_ SG_ 1604 MpRollVelocity "Roll velocity";
+CM_ SG_ 1604 MpYawVelocity "Yaw velocity";
+CM_ SG_ 1604 PfError "Path following error";
+CM_ SG_ 1604 PfDistanceError "Distance error";
+CM_ BO_ 1604 "CMABD05_BUS1";
+CM_ SG_ 1605 MpDistanceTravelledWheelbaseMidP "Distance travelled by wheelbase mid point";
+CM_ SG_ 1605 PfPhase "Path phase";
+CM_ SG_ 1605 PCComCode "PC command code";
+CM_ BO_ 1605 "CMABD06_BUS1";
+CM_ SG_ 1606 OtherVehicleXPositionReference "Head tracker reference X position";
+CM_ SG_ 1606 OtherVehicleYPositionReference "Head tracker reference Y position";
+CM_ BO_ 1606 "CMABD07_BUS1";
+CM_ SG_ 1607 RelativeLongitudinalDistance "Relative longitudinal distance";
+CM_ SG_ 1607 RelativeLateralDistance "Relative lateral distance";
+CM_ SG_ 1607 RelativeLongitudinalVelocity "Relative longitudinal velocity";
+CM_ SG_ 1607 RelativeLateralVelocity "Relative lateral velocity";
+CM_ BO_ 1607 "CMABD08_BUS1";
+CM_ SG_ 1608 OtherVehicleForwardVelocity "Head tracker forward velocity (ref point)";
+CM_ SG_ 1608 OtherVehicleLateralVelocity "Head tracker lateral velocity";
+CM_ SG_ 1608 OtherVehicleForwardAcceleration "Head tracker forward acceleration";
+CM_ SG_ 1608 OtherVehicleLateralAcceleration "Head tracker lateral acceleration";
+CM_ BO_ 1608 "CMABD09_BUS1";
+CM_ SG_ 1609 OtherVehicleYaw "Head tracker yaw";
+CM_ SG_ 1609 OtherVehiclePitch "Head tracker pitch";
+CM_ SG_ 1609 OtherVehicleLateralError "Head tracker lateral error";
+CM_ BO_ 1609 "CMABD10_BUS1";
+CM_ SG_ 1610 IncomingExtrapolationTimeMs "Incoming data extrapolation time";
+CM_ SG_ 1610 PrimaryVehicleStatus "Subject status";
+CM_ SG_ 1610 SecondaryVehicleStatus "Tracker status";
+CM_ SG_ 1610 PathXPositionAdjustment "Path X position adjustment";
+CM_ SG_ 1610 PathYPositionAdjustment "Path Y position adjustment";
+CM_ BO_ 1610 "CMABD11_BUS1";
+CM_ SG_ 1611 RelativeResultantDistance "Relative resultant distance";
+CM_ SG_ 1611 RelativeVelocity "Relative velocity";
+CM_ SG_ 1611 RelativeYaw "Relative yaw";
+CM_ SG_ 1611 TimeToCollisionLongitudinal "Time to collision (longitudinal)";
+CM_ BO_ 1611 "CMABD12_BUS1";
+CM_ SG_ 1612 SubjectTimeError "Subject time error";
+CM_ SG_ 1612 SubjectVelocityRatio "Subject velocity ratio";
+CM_ SG_ 1612 TrackerTimeError "Tracker time error";
+CM_ SG_ 1612 LatRelPa "Relative lateral with respect to path";
+CM_ BO_ 1612 "CMABD13_BUS1";
+CM_ SG_ 1613 OtherVehicleYawVelocity "Head tracker yaw velocity";
+CM_ BO_ 1613 "CMABD14_BUS1";
+CM_ SG_ 1614 ArCommand "AR Command";
+CM_ SG_ 1614 ArPosition "AR Position";
+CM_ SG_ 1614 Speed "Speed";
+CM_ SG_ 1614 SpeedError "Speed Error";
+CM_ BO_ 1614 "CMABD15_BUS1";
+CM_ SG_ 1615 BrCommand "BR Command";
+CM_ SG_ 1615 BrPosition "BR Position";
+CM_ SG_ 1615 BrVelocity "BR Velocity";
+CM_ SG_ 1615 BrControlAnalogue "BR Control Analogue";
+CM_ BO_ 1615 "CMABD16_BUS1";
+CM_ SG_ 1616 SrAngle "SR Angle";
+CM_ SG_ 1616 SrVelocity "SR Velocity";
+CM_ BO_ 1616 "CMABD17_BUS1";
+CM_ SG_ 1617 CanUserDefined1 "CAN User Defined 1 (Audio)";
+CM_ SG_ 1617 CanUserDefined2 "CAN User Defined 2 (Video)";
+CM_ BO_ 1617 "CMABD18_BUS1";
+CM_ SG_ 1618 Analogue1 "SR Joystick Steer";
+CM_ SG_ 1618 Analogue2 "SR Force Link 1";
+CM_ SG_ 1618 Analogue3 "SR Force Link 2";
+CM_ SG_ 1618 Analogue4 "BR Load-cell";
+CM_ BO_ 1618 "CMABD19_BUS1";
+CM_ SG_ 1619 SteerTorque "SR Torque";
+CM_ SG_ 1619 SteerColumnTorque "SR Column Torque";
+CM_ SG_ 1619 SteerCompensatedTorque "SR Compensated Torque";
+CM_ SG_ 1619 SrControlAnalogue "SR Control Analogue";
+CM_ BO_ 1619 "CMABD20_BUS1";
+CM_ SG_ 1620 SrCommand "SR Command";
+CM_ SG_ 1620 SrAngle "SR Angle";
+CM_ SG_ 1620 SrVelocity "SR Velocity";
+CM_ SG_ 1620 SrAcceleration "SR Acceleration";
+CM_ BO_ 1620 "CMABD21_BUS1";
+SIG_VALTYPE_ 1616 SrAngle : 1;
+SIG_VALTYPE_ 1616 SrVelocity : 1;
+SIG_VALTYPE_ 1617 CanUserDefined1 : 1;
+SIG_VALTYPE_ 1617 CanUserDefined2 : 1;
